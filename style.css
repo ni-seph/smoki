@@ -281,7 +281,6 @@ ul,li{
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
-	
 }
 #services .service-top {
 	max-width: 500px;
@@ -320,6 +319,10 @@ ul,li{
 	opacity: .9;
 	z-index: -1;
 }
+.service-item:hover{
+	transform: scale(1.1);
+}
+
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
@@ -455,6 +458,9 @@ ul,li{
 	width: 98%;
 	border: 7px solid crimson;
 	z-index: -1;
+}
+.about-img:hover{
+	transform: scale(1.1);
 }
 /* End About Section */
 
