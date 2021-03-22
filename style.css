@@ -26,12 +26,22 @@ img {
 }
 p {
 	color: black;
-	font-size: 1.4rem;
+	font-size: 2rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
 	font-weight: 300;
 	letter-spacing: .05rem;
 }
+
+ul,li{
+	color: whitesmoke;
+	font-size: 2rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0 rem;
+}
+
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -200,7 +210,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/bu.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -271,6 +281,7 @@ p {
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
+	
 }
 #services .service-top {
 	max-width: 500px;
@@ -291,7 +302,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(./img/devops.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
