@@ -421,6 +421,20 @@ ul,li{
 	padding: 100px 20px;
 
 }
+
+.w3-button {
+	width:100px;
+	border-radius: 16px;	
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.w3-green, .w3-hover-green:hover {
+    color: #fff!important;
+    background-color: #af704c!important;
+}
+
 #about .col-left {
 	width: 250px;
 	height: 360px;
