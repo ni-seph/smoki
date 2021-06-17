@@ -444,6 +444,18 @@ ul,li{
 	padding: 10px 20px;
 	font-size: 2rem;
 }
+@media (min-aspect-ratio: 16/9){
+#videom{
+	height: auto;
+	width: 100%;
+}
+}
+@media (max-aspect-ratio: 16/9){
+	#videom{
+		height: 100%;
+		width: auto;
+	}
+	}
 #about .col-left .about-img {
 	height: 100%;
 	width: 100%;
