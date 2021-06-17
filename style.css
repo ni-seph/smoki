@@ -427,6 +427,7 @@ ul,li{
 }
 #about .col-right {
 	width: 100%;
+	height: auto;
 }
 #about .col-right h2 {
 	font-size: 1.8rem;
